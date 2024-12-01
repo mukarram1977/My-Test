@@ -1,0 +1,15 @@
+.navbar-brand img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  .navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-menu {
+    border-radius: 0.5rem;
+  }
+
+  

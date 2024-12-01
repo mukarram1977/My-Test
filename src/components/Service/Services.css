@@ -1,0 +1,48 @@
+/* সার্ভিস কন্টেইনার */
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* কার্ড স্টাইল */
+  .service-card {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  /* হোভার ইফেক্ট */
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* আইকন স্টাইল */
+  .service-icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: #007bff;
+  }
+  
+  /* টাইটেল স্টাইল */
+  .service-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* বিবরণ স্টাইল */
+  .service-description {
+    font-size: 14px;
+    color: #555;
+  }
+  

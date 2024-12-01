@@ -1,0 +1,68 @@
+/* রিভিউ কন্টেইনার */
+.reviews-container {
+    padding: 40px;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  /* হেডিং স্টাইল */
+  .reviews-heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* গ্রিড লেআউট */
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* রিভিউ কার্ড */
+  .review-card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  /* হোভার ইফেক্ট */
+  .review-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* রিভিউ ফটো */
+  .review-photo {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+  }
+  
+  /* নাম স্টাইল */
+  .review-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  /* রেটিং স্টাইল */
+  .review-rating {
+    font-size: 16px;
+    color: #ffc107;
+    margin-bottom: 10px;
+  }
+  
+  /* মন্তব্য স্টাইল */
+  .review-comment {
+    font-size: 14px;
+    color: #555;
+    font-style: italic;
+  }
+  
